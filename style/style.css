@@ -68,7 +68,7 @@ letter-spacing: 0.1px;
 .menu-item{margin-right: 21px;
     
 }
-..menu-item:last-child{margin: 0;}
+.menu-item:last-child{margin: 0;}
 .menu-linck{
     color: #737373;
 }
@@ -138,17 +138,26 @@ max-width: 396px;
     color: #0D5C63;
     
 }
-.section-a {margin: -100px 197px 0px 197px; display: flex;
-}
-.section-b {
-    position: static;
-    margin: 35 40px;
-    width: 328px;
-    height: 242px;
-    left: 0px;
-    top: 0px;
+.section-a {}
     
-    background: #FFFFFF;
+    .row{margin: -100px 197px 0px 197px;display: flex;
+ 
+        width: 1046px;
+      
+         max-width: 328px;
+        min-height: 245px;
+       
+    }
+
+.section-b {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 35 40px;
+    max-width: 328px;
+    height: 242px;
+    margin-top: -129px;
+    background-color: #FFFFFF;
 }
 
 .section-a__text {font-family: Montserrat;
