@@ -33,6 +33,7 @@ p{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    
 
     }
 .conteiner{
@@ -45,6 +46,8 @@ p{
     background: url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
+    color: tan;
 }
 .header-top {
     display: flex;
@@ -138,26 +141,24 @@ max-width: 396px;
     color: #0D5C63;
     
 }
-.section-a {}
+
     
-    .row{margin: -100px 197px 0px 197px;display: flex;
- 
-        width: 1046px;
-      
-         max-width: 328px;
-        min-height: 245px;
-       
+    .row{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -129px; 
+        position: relative;
+        z-index: 2;
     }
 
-.section-b {display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 35 40px;
-    max-width: 328px;
-    height: 242px;
-    margin-top: -129px;
-    background-color: #FFFFFF;
+.section-b {max-width: 328px;min-height: 242px;
+    padding: 35px 40px;background-color: #FFFFFF;
+    
+
+}
+
+.section-bc {max-width: 328px;min-height: 242px;
+    padding: 35px 40px ; background: #0D5C63;
 }
 
 .section-a__text {font-family: Montserrat;
@@ -166,15 +167,24 @@ max-width: 396px;
     font-size: 24px;
     line-height: 32px;
     /* or 133% */
-    
+    color: #252B42;
     letter-spacing: 0.1px;
+    margin: 10px 0px;
     
     /* text-color */
     
-    color: #252B42;
+    
 }
-.section-text{font-family: Montserrat;
+.section-ab__text {font-family: Montserrat;
     font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    /* or 133% */
+    margin: 10px 0px;
+}
+.section-text{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -186,3 +196,39 @@ max-width: 396px;
     
     color: #737373;
     }
+   .section-text-a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */color: #FFFFFF;
+
+   }
+   .text-c{
+    font-size: 40px;
+    line-height: 57px;
+    /* identical to box height, or 142% */
+    background-color: #fafafa;
+    letter-spacing: 0.2px;
+   }
+   .div-text{
+display: flex; 
+flex-direction: column;
+justify-content: center;
+text-align: center;
+
+
+
+   }
+   .text-ac{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+   }
+   .section-a{
+       background-color: #fafafa;
+   }
